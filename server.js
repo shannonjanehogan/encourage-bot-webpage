@@ -12,12 +12,4 @@ app.get('/', function(req, res) {
     console.log('App is running, server is listening on port ', app.get('port'));
 });
 
-// app.get("/", (req, res) => {
-//   res.render("encouragesplash");
-// });
-
 app.use(express.static(__dirname + '/styles'));
-
-// app.listen(3000, () => {
-//   console.log("Example app listening on port ");
-// });
